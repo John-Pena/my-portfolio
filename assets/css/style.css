@@ -19,6 +19,9 @@ header {
     background-position: right;
     background-size: 33.37%;
 }
+header h1 {
+    font-size: 55px;
+}
 
 /* created this in html and here to give credit to Disney and Lucas Arts (owner of Star Wars) */
 header img {
@@ -32,9 +35,8 @@ header a {
     color: #d3d3d3;
 }
 
-.page-link h1 {
+.page-link {
     color: #d3d3d3;
-    font-size: 48px;
 }
 
 .page-link a {
@@ -56,7 +58,7 @@ header a {
 
 .page-link nav ul li a {
     padding: 20px 25px;
-    font-size: 2.1vw;
+    font-size: 30px;
     font-weight: lighter;
 }
 
@@ -69,7 +71,7 @@ footer {
     /* Credit: Getty Images/iStockphoto (Creator: Melpomenem) */
     background-image: url(../images/Contact-Me-background.jpg);
     background-attachment: fixed;
-    background-position: 25%;
+    background-position: 100px 180px;
 }
 
 footer h2 {
@@ -84,5 +86,62 @@ footer a {
     color: #ffffff;
 }
 
-article {
+/* section with my picture begins */
+.portrait-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #008080;
+}
+
+.code-pun {
+    width: 25%;
+    padding: 75px 25px 75px 100px;
+    border-right: 3px solid #d3d3d3;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.code-pun h2 {
+    font-size: 32px;
+    text-align: center;
+}
+
+.code-pun .random-comment {
+    font-size: 22px;
+}
+
+.portrait-section img {
+    width: 160px;
+    height: 200px;
+}
+
+/* about me styling begins */
+.about-me {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #000000;
+    background-image: url(../images/teal-nebula-galaxy.jpg);
+    background-position: right;
+    background-size: 33.37%;
+}
+
+.about-me h2 {
+    width: 100%;
+    font-size: 48px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.about-me p {
+    color: #ffffff;
+    width: 15%;
+    padding-top: 20px;
+    font-size: 24px;
+}
+
+.about-me img {
+    width: 160px;
+    height: 200px;
 }
