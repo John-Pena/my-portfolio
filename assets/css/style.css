@@ -70,7 +70,6 @@ footer {
     justify-content: space-between;
     /* Credit: Getty Images/iStockphoto (Creator: Melpomenem) */
     background-image: url(../images/Contact-Me-background.jpg);
-    background-attachment: fixed;
     background-position: 100px 180px;
 }
 
@@ -90,30 +89,33 @@ footer a {
 .portrait-section {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     background-color: #008080;
+    height: 750px;
 }
 
 .code-pun {
     width: 25%;
-    padding: 75px 25px 75px 100px;
+    padding: 200px 25px 200px 100px;
     border-right: 3px solid #d3d3d3;
-    margin: 10px 0;
+    margin: auto 0;
     text-align: center;
 }
 
 .code-pun h2 {
-    font-size: 32px;
+    font-size: 35px;
     text-align: center;
 }
 
 .code-pun .random-comment {
-    font-size: 22px;
+    font-size: 25px;
 }
 
 .portrait-section img {
-    width: 160px;
-    height: 200px;
+    width: 350px;
+    height: 500px;
+    margin-top: 125px;
+    margin-left: 350px;
+    border-radius: 350px 0 0;
 }
 
 /* about me styling begins */
