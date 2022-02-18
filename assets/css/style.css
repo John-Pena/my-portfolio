@@ -20,6 +20,14 @@ header {
     background-size: 33.37%;
 }
 
+/* created this in html and here to give credit to Disney and Lucas Arts (owner of Star Wars) */
+header img {
+    z-index: 1000;
+    position: absolute;
+    top: 0;
+    height: 10px;
+}
+
 header a {
     color: #d3d3d3;
 }
@@ -77,5 +85,4 @@ footer a {
 }
 
 article {
-    background-image: url(../images/Darth-Vader-in-dark-hallway.jpg);
 }
