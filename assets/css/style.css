@@ -102,7 +102,7 @@ footer a {
     border-right: 3px solid #d3d3d3;
     margin: auto 0;
     text-align: center;
-    font-size: 22px;
+    font-size: 25px;
 }
 
 .code-pun h2 {
@@ -209,7 +209,74 @@ footer a {
     text-align: center;
 }
 
+/* increases size of my work when mouse is hovered on box */
 .project:hover {
-    width: 50%;
+    width: 45%;
 }
 /* my work styling ends */
+
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS */
+@media screen and (max-width: 980px) {
+    header {
+        position: relative;
+        justify-content: center;
+    }
+
+    header h1 {
+        text-align: center;
+        width: 100%;
+    }
+
+    footer h2 {
+        text-align: center;
+        width: 100%;
+        padding: 0 0 20px 20px;
+    }
+
+    footer nav {
+        text-align: center;
+        justify-content: center;
+        padding-left: 110px;
+    }
+
+    .portrait-section .code-pun {
+        width: 25%;
+        object-position: 0 100px;
+        border: none;
+        margin-bottom: 50px;
+        padding: 0 0 100px 50px;
+    }
+
+    .portrait-section .code-pun h2 {
+        font-size: 25px;
+    }
+
+    .portrait-section img {
+        width: 30%;
+        margin-top: 75px;
+    }
+
+    .project:hover {
+        width: 45%;
+    }
+}
+
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+    .portrait-section .code-pun p {
+        text-align: center;
+        width: 91%;
+        font-size: 28px;
+    }
+}
+
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+    .code-pun {
+        text-align: center;
+        width: 150%;
+    }
+}
