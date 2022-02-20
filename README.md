@@ -19,4 +19,4 @@ This is the first of my professional portfolio. While the "work" section of my p
 - Navigate to the top level of the directory.
 - Open the "index.html" in your browser to view.
 
-![Alt text](assets\images\Portfolio-snippet.png)
+![screenshot](assets\images\Portfolio-snippet.png)
