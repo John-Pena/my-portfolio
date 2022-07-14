@@ -1,212 +1,226 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
 
-    <head>
-        <meta charset="UTF-8">
-        <title>Portfolio</title>
-        <link rel="stylesheet" href="assets/css/style.css">
-    </head>
+  <body>
+    <header class="page-link">
+      <img
+        src="assets/images/build-the-Death-Star.jpg"
+        alt="Building the Death Star, photo from: https://blog.ferrovial.com/en/2015/12/engineering-fiction-how-would-you-build-the-death-star/ (Star Wars is owned by Disney and Lucas Arts)"
+      />
 
-    <body>
-        <header class="page-link">
+      <h1>John Pena</h1>
 
-            <img src="assets/images/build-the-Death-Star.jpg" 
-            alt="Building the Death Star, photo from: https://blog.ferrovial.com/en/2015/12/engineering-fiction-how-would-you-build-the-death-star/ (Star Wars is owned by Disney and Lucas Arts)" />
+      <nav>
+        <ul class="primary-border">
+          <li>
+            <a href="#about-me">About Me</a>
+          </li>
+          <li>
+            <a href="#my-work">My Work</a>
+          </li>
+          <li>
+            <a href="#contact-me">Contact Me</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-            <h1>John Pena</h1>
+    <article>
+      <!-- Portrait section -->
+      <section class="portrait-section">
+        <div class="code-pun">
+          <p>
+            Welcome to my Portfolio! Below you will see all the content I have
+            created, and collabed with others.
+          </p>
 
-            <nav>
-                <ul class="primary-border">
-                    <li>
-                       <a href="#about-me">About Me</a> 
-                    </li>
-                    <li>
-                        <a href="#my-work">My Work</a>
-                    </li> 
-                    <li>
-                        <a href="#contact-me">Contact Me</a>
-                    </li>
-                </ul>
-            </nav>
+          <br />
+          <br />
 
-        </header>
+          <h2>["Hip", "Hip"]</h2>
+          <!-- button will come in future update! <button type="button">[Hip", "Hip"]</button> -->
+          <p class="pun-hint">(get it?)</p>
 
-        <article>
-            
-            <!-- Portrait section -->
-            <section class="portrait-section">
+          <br />
+          <br />
 
-                <div class="code-pun">
+          <p class="random-comment">
+            Wittiness and Creativity. It's what coding is all about!
+          </p>
+        </div>
 
-                    <p>Welcome to my Portfolio! Below you will see all the content I have created, and collabed with others.</p>
+        <img
+          src="assets/images/Lombard Street.jpg"
+          alt="Fiance and I at Lombard Street San Francisco, California"
+        />
+      </section>
+    </article>
 
-                    <br>
-                    <br>
-                    
-                    <h2>["Hip", "Hip"]</h2>
-                    <!-- button will come in future update! <button type="button">[Hip", "Hip"]</button> -->
-                    <p class="pun-hint">(get it?)</p>
+    <!--About Me Section -->
+    <section>
+      <article>
+        <div id="about-me" class="about-me">
+          <h2>About Me</h2>
 
-                    <br>
-                    <br>
+          <div>
+            <p>
+              I'm currently engaged and plan to get married next year in May. I
+              enjoy learning new things and get an rush when I'm able to solve a
+              problem.
+            </p>
+            <br />
+            <p>
+              I currently have a job as an arcade tech at Andretti Indoor
+              Karting and Games. I enjoy this job as everyday something new
+              arises and I have to use all resources available to me in order to
+              solve/fix an issue that arises. It was with this job that I found
+              a passion for creating and fixing things. This job is what led me
+              to pursue a career in software development.
+            </p>
+            <br />
+            <p>
+              I enjoy learning about the unknown. This could be the universe,
+              new technologies, and what the breaking news is of the racing
+              world. I currently keep up Formula 1 as they just introduced new
+              regulations that could create new opportunities for the back
+              marker teams to be contenders and vice versa.
+            </p>
+          </div>
+        </div>
+      </article>
+    </section>
 
-                    <p class="random-comment">Wittiness and Creativity. It's what coding is all about!</p>
+    <!-- My Work section -->
+    <section class="my-content">
+      <div class="flex-flow">
+        <h2 id="my-work">My Work</h2>
+      </div>
 
-                </div>
+      <div class="projects">
+        <article class="project">
+          <img src="assets/images/run-buddy.png" alt="snippet from run-buddy" />
 
-                <img src="assets/images/Lombard Street.jpg" alt="Fiance and I at Lombard Street San Francisco, California" />
-
-            </section>
+          <div class="project-info">
+            <a href="https://github.com/John-Pena/John-RunBuddy">Run Buddy</a>
+          </div>
         </article>
 
-        <!--About Me Section -->
-        <section>
-            <article>
+        <article class="project">
+          <img
+            src="assets/images/Horiseon-code-refractor.png"
+            alt="snippet from Horiseon Challenge"
+          />
 
-                <div id="about-me" class="about-me">
+          <div class="project-info">
+            <a href="https://github.com/John-Pena/Challenge1Repo"
+              >Challenge 1: Horiseon Code Refractor</a
+            >
+          </div>
+        </article>
 
-                    <h2>About Me</h2>
+        <article class="project">
+          <img
+            src="assets/images/Password-generator.png"
+            alt="Password Generator"
+          />
 
-                    <div>
+          <div class="project-info">
+            <a href="https://github.com/John-Pena/password-generator"
+              >JavaScript: Password Generator</a
+            >
+          </div>
+        </article>
 
-                        <p>
-                            I'm currently engaged and plan to get married next year in May. I enjoy learning new things and get an rush when I'm able to solve a problem.
-                        </p>
-                            <br>
-                        <p>
-                            I currently have a job as an arcade tech at Andretti Indoor Karting and Games. I enjoy this job as everyday something new arises and I have to use
-                            all resources available to me in order to solve/fix an issue that arises. It was with this job that I found a passion for creating and fixing things.
-                            This job is what led me to pursue a career in software development.
-                        </p>
-                            <br>
-                        <p>
-                            I enjoy learning about the unknown. This could be the universe, new technologies, and what the breaking news is of the racing world. I currently keep up
-                            Formula 1 as they just introduced new regulations that could create new opportunities for the back marker teams to be contenders and vice versa. 
-                        </p>
+        <article class="project">
+          <img src="assets/images/Code-Quiz.png" alt="Code Quiz" />
 
-                    </div>
+          <div class="project-info">
+            <a href="https://github.com/John-Pena/challenge4-code-quiz/settings"
+              >Code Quiz</a
+            >
+          </div>
+        </article>
 
-                </div>
+        <article class="project">
+          <img
+            src="assets/images/Professional-READMe.png"
+            alt="Professional READMe"
+          />
 
-            </article>
-        </section>
+          <div class="project-info">
+            <a href="https://github.com/John-Pena/Professional-README"
+              >Professional READMe</a
+            >
+          </div>
+        </article>
 
-        <!-- My Work section -->
-        <section class="my-content">
+        <article class="project">
+          <img src="assets/images/E-Commerce.png" alt="E-Commerce" />
 
-            <div class="flex-flow">
-                <h2 id="my-work">
-                    My Work
-                </h2>
+          <div class="project-info">
+            <a href="https://github.com/John-Pena/E-Commerce">E-Commerce</a>
+          </div>
+        </article>
+
+        <article class="project">
+          <img
+            src="assets/images/Star-Wars-Weekly-Scheduler.png"
+            alt="Star Wars Weekly Scheduler project"
+          />
+
+          <div class="project-info">
+            <a href="https://github.com/rtleib/Star-Wars-Weekly-Scheduler"
+              >Star Wars Weekly Scheduler</a
+            >
+          </div>
+        </article>
+
+        <article class="project">
+          <img src="assets/images/InsertDisc.png" alt="InsertDisc" />
+
+          <div class="project-info">
+            <a href="https://github.com/ArchieDonaho/InsertDisc">InsertDisc</a>
+          </div>
+        </article>
+
+        <article class="project">
+            <img src="assets\images\yoga-for-everyone.png" alt="Yoga For Everyone" />
+
+            <div class="project-info">
+                <a href="https://github.com/c0y01202/yoga-for-everyone">Yoga For Everyone</a>
             </div>
+        </article>
+      </div>
+    </section>
 
-            <div class="projects">
+    <!-- Contact Me section -->
+    <footer id="contact-me" class="page-link">
+      <h2>Contact Me</h2>
 
-                <article class="project">
-
-                    <img src="assets/images/run-buddy.png" alt="snippet from run-buddy" />
-
-                    <div class="project-info">
-                        <a href="https://github.com/John-Pena/John-RunBuddy">Run Buddy</a>
-                    </div>
-                    
-                </article>
-
-                <article class="project">
-
-                    <img src="assets/images/Horiseon-code-refractor.png" alt="snippet from Horiseon Challenge" />
-
-                    <div class="project-info">
-                        <a href="https://github.com/John-Pena/Challenge1Repo">Challenge 1: Horiseon Code Refractor</a>
-                    </div>
-
-                </article>
-
-                <article class="project">
-
-                    <img src="assets/images/Password-generator.png" alt="Password Generator"/>
-
-                    <div class="project-info">
-                        <a href="https://github.com/John-Pena/password-generator">JavaScript: Password Generator</a>
-                    </div>
-                </article>
-
-                <article class="project">
-
-                    <img src="assets/images/Code-Quiz.png" alt="Code Quiz"/>
-
-                    <div class="project-info">
-                        <a href="https://github.com/John-Pena/challenge4-code-quiz/settings">Code Quiz</a>
-                    </div>
-                </article>
-
-                <article class="project">
-
-                    <img src="assets/images/Professional-READMe.png" alt="Professional READMe"/>
-
-                    <div class="project-info">
-                        <a href="https://github.com/John-Pena/Professional-README">Professional READMe</a>
-                    </div>
-                </article>
-
-                <article class="project">
-
-                    <img src="assets/images/E-Commerce.png" alt="E-Commerce"/>
-
-                    <div class="project-info">
-                        <a href="https://github.com/John-Pena/E-Commerce">E-Commerce</a>
-                    </div>
-                </article>
-
-                <article class="project">
-
-                    <img src="assets/images/Star-Wars-Weekly-Scheduler.png" alt="Star Wars Weekly Scheduler project"/>
-
-                    <div class="project-info">
-                        <a href="https://github.com/rtleib/Star-Wars-Weekly-Scheduler">Star Wars Weekly Scheduler</a>
-                    </div>
-                </article>
-
-                <article class="project">
-
-                    <img src="assets/images/InsertDisc.png" alt="InsertDisc"/>
-
-                    <div class="project-info">
-                        <a href="https://github.com/ArchieDonaho/InsertDisc">InsertDisc</a>
-                    </div>
-                </article>
-
-            </div>
-
-
-        </section>
-
-        <!-- Contact Me section -->
-        <footer id="contact-me" class="page-link">
-
-            <h2>Contact Me</h2>
-
-            <nav>
-                <ul>
-                    <li>
-                        <a href="tel:210.712.8603">210.712.8603</a>
-                    </li>
-                    <li>
-                        <a href="mailto:jmp1495@gmail.com?">Email</a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/">Git Hub</a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com/Seniorpena">Twitter</a>
-                    </li>
-                    <li>
-                        <a href="https://www.twitch.tv/john__pena">Twitch</a>
-                    </li>
-                </ul>
-            </nav>
-
-        </footer>
-
-    </body>
+      <nav>
+        <ul>
+          <li>
+            <a href="tel:210.712.8603">210.712.8603</a>
+          </li>
+          <li>
+            <a href="mailto:jmp1495@gmail.com?">Email</a>
+          </li>
+          <li>
+            <a href="https://github.com/">Git Hub</a>
+          </li>
+          <li>
+            <a href="https://twitter.com/Seniorpena">Twitter</a>
+          </li>
+          <li>
+            <a href="https://www.twitch.tv/john__pena">Twitch</a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
 </html>
